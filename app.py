@@ -82,4 +82,18 @@ if test_image:
     image_output(test_image)
 
 
+with st.sidebar:
+    url_github="https://github.com/qian1170/test"
+    st.markdown(f'''<a href={url_github}><button style="background-color:Gray;">Source Code</button></a>''',unsafe_allow_html=True)
 
+
+    url_report="https://docs.google.com/document/d/1mKAfrd51Qv7BOzDAbNq1_LrJlrSQxs42XaSXJgHUpWE/edit"
+    st.markdown(f'''<a href={url_report}><button style="background-color:Gray;">Report</button></a>''',unsafe_allow_html=True)
+
+
+    url_chat="https://qian1170-chatbox-app-xnmjct.streamlit.app/"
+    st.markdown(f'''<a href={url_chat}><button style="background-color:Pink;">Talk with An AI expert</button></a>''',unsafe_allow_html=True)
+
+    st.success('Team members: WUQIAN MA,  ZINAN WANG')
+    st.success('International Master Project')
+    
