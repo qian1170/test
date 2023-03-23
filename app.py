@@ -27,7 +27,7 @@ def load_random_image(label):
     return st.image(random_image)
 
 def knowledge(label):
-    df=pd.read_excel('flower-how-to-plant',index_col=0)
+    df=pd.read_excel('flower-how-to-plant.xlsx',index_col=0)
     return st.markdown(df.loc[label]['description'])
 
 
